@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.example.sakshiudeshi.myapplication.CircleView
+            android:id="@+id/my_circle"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!-->-->
+
+        <!--<com.example.sakshiudeshi.myapplication.HeartbeatView-->
+            <!--android:id="@+id/my_heart"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:layout_gravity="center"/>-->
+    <!--</FrameLayout>-->
+
+</android.support.design.widget.CoordinatorLayout>
